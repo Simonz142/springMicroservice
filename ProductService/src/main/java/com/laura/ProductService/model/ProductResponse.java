@@ -1,0 +1,18 @@
+package com.laura.ProductService.model;
+
+import lombok.AllArgsConstructor;
+import lombok.Builder;
+import lombok.Data;
+import lombok.NoArgsConstructor;
+
+@Data
+@Builder
+@NoArgsConstructor
+@AllArgsConstructor
+public class ProductResponse {
+    private String name;
+
+    private long productId;
+    private long quantity;
+    private long price;
+}
